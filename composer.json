@@ -1,0 +1,28 @@
+{
+    "name": "onamanzi/mdcrypt",
+    "description": "Administrar la encriptación de los proyectos",
+    "authors": [
+        {
+            "name": "Norberto Sandoval",
+            "email": "jnorsandoval@duck.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Onamanzi\\Mdcrypt\\": "src/"
+        }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.13"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Onamanzi\\Mdcrypt\\MdcryptServiceProvider"
+            ],
+            "aliases": {
+                "Mdcrypt": "Onamanzi\\Mdcrypt\\Facades\\Mdcrypt"
+            }
+        }
+    }
+}
