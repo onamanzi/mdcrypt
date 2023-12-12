@@ -1,6 +1,7 @@
 {
     "name": "onamanzi/mdcrypt",
-    "description": "Administrar la encriptación de los proyectos",
+    "description": "Administrar encriptación de proyectos",
+    "license": "MIT",
     "authors": [
         {
             "name": "Norberto Sandoval",
